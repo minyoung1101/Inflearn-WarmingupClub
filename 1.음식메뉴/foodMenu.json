@@ -1,0 +1,104 @@
+[
+  {
+  "foodName": "신전떡볶이",
+  "price": 3500,
+  "description": "Cupidatat veniam dolor dolore fugiat minim consequat. Exercitation excepteur nisi velit mollit mollit sint laborum aute minim nulla anim anim veniam sit.",
+  "image": "main-menu01.png",
+  "category": "main"
+}, {
+  "foodName": "치즈떡볶이",
+  "price": 5500,
+  "description": "Cupidatat veniam dolor dolore fugiat minim consequat. Ea fugiat aliqua proident Lorem cupidatat adipisicing.",
+  "image": "main-menu02.png",
+  "category": "main"
+}, {
+  "foodName": "로제떡볶이",
+  "price": 5500,
+  "description": "Cupidatat veniam dolor dolore fugiat minim consequat. Reprehenderit non esse Lorem dolor ipsum commodo et et dolor eu.",
+  "image": "main-menu03.png",
+  "category": "main"
+}, {
+  "foodName": "마라로제떡볶이",
+  "price": 6500,
+  "description": "Cupidatat veniam dolor dolore fugiat minim consequat. Et est et dolore id eu elit occaecat commodo duis ipsum exercitation.",
+  "image": "main-menu04.png",
+  "category": "main"
+}, {
+  "foodName": "튀김오뎅",
+  "price": 1700,
+  "description": "Adipisicing et ad fugiat eiusmod cillum quis do qui ut enim veniam.",
+  "image": "fried-menu01.png",
+  "category": "fried"
+}, {
+  "foodName": "튀김만두",
+  "price": 1700,
+  "description": "Adipisicing et ad fugiat eiusmod cillum quis do qui ut enim veniam.",
+  "image": "fried-menu02.png",
+  "category": "fried"
+}, {
+  "foodName": "김말이",
+  "price": 1700,
+  "description": "Adipisicing et ad fugiat eiusmod cillum quis do qui ut enim veniam.",
+  "image": "fried-menu03.png",
+  "category": "fried"
+}, {
+  "foodName": "닭껍질튀김",
+  "price": 2500,
+  "description": "Adipisicing et ad fugiat eiusmod cillum quis do qui ut enim veniam.",
+  "image": "fried-menu04.png",
+  "category": "fried"
+}, {
+  "foodName": "신전치즈김밥",
+  "price": 4000,
+  "description": "Enim dolore qui ea ut aliquip qui est ut ea dolore elit commodo aliquip cillum.",
+  "image": "rice-menu01.png",
+  "category": "rice"
+}, {
+  "foodName": "참치마요김밥",
+  "price": 4000,
+  "description": "Enim dolore qui ea ut aliquip qui est ut ea dolore elit commodo aliquip cillum.",
+  "image": "rice-menu02.png",
+  "category": "rice"
+}, {
+  "foodName": "치킨마요컵밥",
+  "price": 4000,
+  "description": "Enim dolore qui ea ut aliquip qui est ut ea dolore elit commodo aliquip cillum.",
+  "image": "rice-menu03.png",
+  "category": "rice"
+}, {
+  "foodName": "참치마요컵밥",
+  "price": 4000,
+  "description": "Enim dolore qui ea ut aliquip qui est ut ea dolore elit commodo aliquip cillum.",
+  "image": "rice-menu04.png",
+  "category": "rice"
+}, {
+  "foodName": "신전라이스",
+  "price": 4000,
+  "description": "Enim dolore qui ea ut aliquip qui est ut ea dolore elit commodo aliquip cillum.",
+  "image": "rice-menu05.png",
+  "category": "rice"
+}, {
+  "foodName": "순대",
+  "price": 4000,
+  "description": "Cupidatat aliqua in tempor quis aliquip mollit voluptate.",
+  "image": "etc-menu01.png",
+  "category": "etc"
+}, {
+  "foodName": "맑은오뎅탕",
+  "price": 5000,
+  "description": "Cupidatat aliqua in tempor quis aliquip mollit voluptate.",
+  "image": "etc-menu02.png",
+  "category": "etc"
+}, {
+  "foodName": "콘치즈",
+  "price": 4000,
+  "description": "Cupidatat aliqua in tempor quis aliquip mollit voluptate.",
+  "image": "etc-menu03.png",
+  "category": "etc"
+}, {
+  "foodName": "단무지",
+  "price": 500,
+  "description": "Cupidatat aliqua in tempor quis aliquip mollit voluptate.",
+  "image": "etc-menu04.png",
+  "category": "etc"
+}]

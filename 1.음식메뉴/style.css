@@ -1,0 +1,84 @@
+:root {
+  --mn-gray: rgb(100, 100, 100);
+  --mn-green: rgb(0, 130, 80);
+  --mn-green-light: rgba(0, 130, 80, 0.3);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+hr {
+  color: var(--mn-gray);
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 4rem;
+  margin: 2rem auto;
+}
+.btns button {
+  position: relative;
+  min-width: 5rem;
+  height: 3rem;
+  padding: .5rem 1.5rem;
+  border-radius: .3rem;
+  border: 2px solid var(--mn-green);
+  background: #fff;
+}
+.btns button:hover {
+  background: var(--mn-green);
+  color: #fff;
+  cursor: pointer;
+}
+
+button.btn-active {
+  background: var(--mn-green);
+  color: #fff;
+}
+button.btn-ctg {
+  text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+}
+
+main {
+  margin: 2rem;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+article img {
+  width: 21.6rem;
+  height: 20rem;
+}
+
+.menu-desc {
+  padding: 2rem 0;
+  max-width: 32rem;
+}
+.menu-desc h3, .menu-desc p {
+  display: inline-block;
+  margin: 0 .5rem;
+  font-size: 1.2rem;
+}
+.menu-desc p:nth-of-type(1) {
+  float: right;
+}
