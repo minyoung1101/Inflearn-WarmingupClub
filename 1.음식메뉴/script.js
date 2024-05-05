@@ -1,4 +1,12 @@
-// create document element
+/**
+ * create document element
+ * @param {String} menuCtg 
+ * @param {String} menuImg 
+ * @param {String} menuName 
+ * @param {Number} menuPrice 
+ * @param {String} menuDesc 
+ * @returns {Element} article element
+ */
 function createArticle(menuCtg, menuImg, menuName, menuPrice, menuDesc) {
 
   const article = document.createElement('article');
@@ -6,7 +14,6 @@ function createArticle(menuCtg, menuImg, menuName, menuPrice, menuDesc) {
 
   const img = document.createElement('img');
   img.src = `./images/${menuImg}`;
-  // img.src = 'images/main-menu01.png';
 
   const div = document.createElement('div');
   div.className = 'menu-desc';
@@ -16,7 +23,6 @@ function createArticle(menuCtg, menuImg, menuName, menuPrice, menuDesc) {
 
   const price = document.createElement('p');
   price.innerText = `${menuPrice.toLocaleString()}원`;
-  // 세자리수 콤마(,) 뒤에 원 붙이기
 
   const hr = document.createElement('hr');
 
@@ -29,15 +35,22 @@ function createArticle(menuCtg, menuImg, menuName, menuPrice, menuDesc) {
   return article;
 }
 
-// json 가져와서 for문으로 json 객체 수만큼 article 만들기
-// json 문서 참조 - https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Using_Fetch
+/**
+ * get json file contents
+ * (*json 문서 참조 - https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Using_Fetch)
+ * @returns {Object} foodMenu object
+ */
 async function getJson() {
   const res = await fetch('foodMenu.json');
   const foodMenu = await res.json();
   return foodMenu;
 }
 
-// main에 있는 elements 전부 초기화 후 해당 카테고리만 다시 main에 추가
+/**
+ * main에 있는 elements 전부 초기화 후 해당 카테고리만 다시 main doc에 추가
+ * @param {Element[]} articles 
+ * @param {String} ctg 
+ */
 function filterMenu(articles, ctg) {
   const main = document.querySelector('main');
   main.innerHTML = '';
@@ -49,11 +62,16 @@ function filterMenu(articles, ctg) {
   });
 }
 
-// change active class
+/**
+ * change active button 
+ * @param {Element[]} btns 
+ * @param {Element} targetBtn
+ */
 function changeActiveBtn(btns, targetBtn) {
   btns.forEach(btn => btn.classList.remove('btn-active'));
   targetBtn.classList.add('btn-active');
 }
+
 
 let articles = [];
 window.onload = () => {
