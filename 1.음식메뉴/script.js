@@ -49,13 +49,10 @@ function filterMenu(articles, ctg) {
   });
 }
 
-// remove button style
-function removeActiveBtn(btns) {
-  btns.forEach(btn => {
-    if(btn.classList.contains('btn-active')){
-      btn.classList.remove('btn-active');
-    }
-  })
+// change active class
+function changeActiveBtn(btns, targetBtn) {
+  btns.forEach(btn => btn.classList.remove('btn-active'));
+  targetBtn.classList.add('btn-active');
 }
 
 let articles = [];
@@ -73,11 +70,7 @@ window.onload = () => {
   const ctgBtns = document.querySelectorAll('.btn-ctg');
   ctgBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
-      // change button style
-      removeActiveBtn(ctgBtns);
-      e.target.classList.add('btn-active');
-
-      // filter menu
+      changeActiveBtn(ctgBtns, e.target);
       filterMenu(articles, e.target.textContent);
     });
   });
