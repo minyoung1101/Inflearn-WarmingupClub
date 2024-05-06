@@ -1,0 +1,27 @@
+[
+  {
+    "question": "4 + 2 ?",
+    "answers": [6, 8, "정답이 없습니다"],
+    "correctAnswer": 6
+  },
+  {
+    "question": "6 + 9 ?",
+    "answers": [15, 54, "정답이 없습니다"],
+    "correctAnswer": 15
+  },
+  {
+    "question": "2 + 2 ?",
+    "answers": [22, 2, "정답이 없습니다"],
+    "correctAnswer": "정답이 없습니다"
+  },
+  {
+    "question": "9 + 8 ?",
+    "answers": [16, 19, "정답이 없습니다"],
+    "correctAnswer": "정답이 없습니다"
+  },
+  {
+    "question": "7 + 3 ?",
+    "answers": [10, 6, "정답이 없습니다"],
+    "correctAnswer": 10
+  }
+]
